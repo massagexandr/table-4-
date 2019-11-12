@@ -1,10 +1,27 @@
 th, tr, table {
-  border: 1px solid black;
-  text-align: center;
+  border: 1px solid grey;
+  text-align: left;
+  
 
 }
 
 th, tr, td {
-  border: 1px solid black;
+  border: 1px solid grey;
   padding: 5px;
+  color: white;
+  
+}
+
+table{
+  width: 500px;
+
+}
+.line2
+{
+  color: grey;
+}
+
+.Searh{
+  color: grey;
+  padding-left: 10%
 }
