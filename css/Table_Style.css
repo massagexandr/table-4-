@@ -14,6 +14,7 @@ th, tr, td {
 
 table{
   width: 500px;
+  margin-left: 50px;
 
 }
 .line2
@@ -21,7 +22,11 @@ table{
   color: grey;
 }
 
-.Searh{
+.Search{
   color: grey;
-  padding-left: 10%
+  margin-left: 50px;
+  width: 30%;
 }
+ img{
+ 
+ }
