@@ -1,32 +1,54 @@
-th, tr, table {
-  border: 1px solid grey;
-  text-align: left;
-  
 
-}
 
-th, tr, td {
-  border: 1px solid grey;
-  padding: 5px;
-  color: white;
+th, tr{
+ padding: 5px;
+ color: white;
   
 }
 
+td, th{
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+  
 table{
-  width: 500px;
+  width: 700px;
   margin-left: 50px;
-
+  height: 100px;
+  text-align: left;
+  border: 2px solid grey;
+  margin-top: 60px;
 }
 .line2
-{
+{ 
   color: grey;
-}
+
+  }
+
+  .line1{
+    color: white;
+  }
+  .line3{
+
+  }
 
 .Search{
   color: grey;
   margin-left: 50px;
   width: 30%;
 }
- img{
+ 
+.table1{
+  margin-top: 120px;
+}
+
+.table2{
+  margin-top: 10px;
+}
+
+.table3{
+  margin-top: 10px;
+}
+img{
  
  }
