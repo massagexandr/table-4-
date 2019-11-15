@@ -1,24 +1,28 @@
 
 
 th, tr{
- padding: 5px;
- color: white;
+  color: white;
   
 }
 
-td, th{
-  border-bottom: 1px solid grey;
-  padding: 10px;
-}
-  
 table{
+  border-collapse: collapse;
+  border-radius: 10px;
+  border: 1px solid grey;
   width: 700px;
   margin-left: 50px;
   height: 100px;
   text-align: left;
-  border: 2px solid grey;
   margin-top: 60px;
+  }
+
+td, th{
+  border: 1px solid grey;
+  border-right: none;
+  border-left: none;
+  padding: 10px;
 }
+
 .line2
 { 
   color: grey;
