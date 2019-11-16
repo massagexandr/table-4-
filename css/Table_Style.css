@@ -1,11 +1,9 @@
-
-
-th, tr{
+th,
+tr {
   color: white;
-  
 }
 
-table{
+table {
   border-collapse: collapse;
   border-radius: 10px;
   border: 1px solid grey;
@@ -14,45 +12,83 @@ table{
   height: 100px;
   text-align: left;
   margin-top: 60px;
-  }
-
-td, th{
+}
+/*
+.border-radius{ 
+  border: 2px solid white; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
+  width: 700px;
+  margin-left: 50px;
+}
+*/
+td,th {
   border: 1px solid grey;
   border-right: none;
   border-left: none;
   padding: 10px;
 }
 
-.line2
-{ 
-  color: grey;
+.line02 {
+  text-align: left;
 
-  }
-
-  .line1{
-    color: white;
-  }
-  .line3{
-
-  }
-
-.Search{
-  color: grey;
-  margin-left: 50px;
-  width: 30%;
 }
- 
-.table1{
+.line4{
+  color:gray;
+  margin-right: 30px;
+  }
+  
+.line2 {
+  color: grey;
+}
+
+.line1 {
+  color: white;
+}
+
+/*.line3{
+padding-left: 1px;
+  }*/
+
+.Search {
+  background:  #00008B;
+  width: 47%;
+  height: 33px;
+  text-align: center;
+  
+  }
+
+.table1 {
   margin-top: 120px;
 }
 
-.table2{
+.table2 {
   margin-top: 10px;
 }
 
-.table3{
+.table3 {
   margin-top: 10px;
 }
-img{
- 
- }
+
+.archive {
+  background: blue;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+
+}
+
+.Serch-line{
+  position: relative;
+  bottom: 27px;
+  left: 283px;
+  height: 4px;
+
+}
+
+.search-img{
+  width: 15px;
+  height: 15px; 
+  position: relative;
+  right: 180px;
+  bottom: -2px;
+  background: black;
+}
