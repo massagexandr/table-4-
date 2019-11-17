@@ -4,26 +4,31 @@ tr {
 }
 
 table {
-  border-collapse: collapse;
-  border-radius: 10px;
-  border: 1px solid grey;
+  border-spacing: 0;
+  border-radius: 15px;
+  border: 2px solid grey;
   width: 700px;
   margin-left: 50px;
   height: 100px;
   text-align: left;
   margin-top: 60px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
-/*
-.border-radius{ 
-  border: 2px solid white; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
-  width: 700px;
-  margin-left: 50px;
+
+.height-line {
+  height: 15px;
+  border-top: none;
 }
-*/
-td,th {
+
+td,
+th {
   border: 1px solid grey;
   border-right: none;
   border-left: none;
+  border-bottom: none;
   padding: 10px;
 }
 
@@ -31,17 +36,19 @@ td,th {
   text-align: left;
 
 }
-.line4{
-  color:gray;
+
+.line4 {
+  color: gray;
   margin-right: 30px;
-  }
-  
+}
+
 .line2 {
   color: grey;
 }
 
 .line1 {
   color: white;
+  
 }
 
 /*.line3{
@@ -49,12 +56,17 @@ padding-left: 1px;
   }*/
 
 .Search {
-  background:  #00008B;
+  background: #00008B;
   width: 47%;
   height: 33px;
   text-align: center;
-  
-  }
+  border-radius: 10px;
+  ;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
 .table1 {
   margin-top: 120px;
@@ -62,6 +74,11 @@ padding-left: 1px;
 
 .table2 {
   margin-top: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .table3 {
@@ -76,7 +93,7 @@ padding-left: 1px;
 
 }
 
-.Serch-line{
+.Serch-line {
   position: relative;
   bottom: 27px;
   left: 283px;
@@ -84,9 +101,9 @@ padding-left: 1px;
 
 }
 
-.search-img{
+.search-img {
   width: 15px;
-  height: 15px; 
+  height: 15px;
   position: relative;
   right: 180px;
   bottom: -2px;
