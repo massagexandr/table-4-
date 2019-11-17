@@ -21,6 +21,21 @@ table {
 .height-line {
   height: 15px;
   border-top: none;
+  width: 10px;
+}
+
+.height-line2 {
+  height: 15px;
+  border-top: none;
+  width: 40px;
+}
+
+.height-line3 {
+  height: 15px;
+  border-top: none;
+}
+.line-b1{
+  text-align: center;
 }
 
 td,
@@ -48,12 +63,8 @@ th {
 
 .line1 {
   color: white;
-  
-}
 
-/*.line3{
-padding-left: 1px;
-  }*/
+}
 
 .Search {
   background: #00008B;
@@ -61,7 +72,6 @@ padding-left: 1px;
   height: 33px;
   text-align: center;
   border-radius: 10px;
-  ;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
