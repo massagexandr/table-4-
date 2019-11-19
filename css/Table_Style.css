@@ -38,6 +38,7 @@ table {
 .line-b1 {
   text-align: center;
 }
+
 .line-b2 {
   width: 10%;
 }
@@ -64,16 +65,17 @@ th {
 .line1 {
   color: white;
 }
+
 .line2-b3 {
   color: grey;
 }
 
-.line1-b2{
+.line1-b2 {
   width: 50px;
 }
 
-.line1-b3{
- width: 35%;
+.line1-b3 {
+  width: 35%;
 }
 
 .Search {
@@ -117,7 +119,6 @@ th {
   bottom: 27px;
   left: 260px;
   height: 4px;
-
 }
 
 .search-img {
@@ -126,5 +127,4 @@ th {
   position: relative;
   right: 170px;
   bottom: -2px;
-  background: black;
 }
